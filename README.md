@@ -144,8 +144,8 @@ just like they can do for _local_ branches!
 To update a list of available branches at a _remote_ we use: `git fetch
 remote-name`.
 
-As a shorthand to `fetch` and then automatically merge the same-named branch
-from the _remote_ we can issue `git fetch remote-name branch-name-to-merge-in`.
+To then automatically merge the same-named branch
+from the _remote_ we can use `git fetch remote-name branch-name-to-merge-in`.
 
 These are complex topics as it brings up the issue of how to reconcile lines of
 code where you and another developer might have changed the same thing. This is
